@@ -1,0 +1,47 @@
+Operadores Java Tabela de Precedência
+
+Quando maior o número, maior é a precedência
+Precedência Operador Tipo Associatividade
+
+15  () Parentesis                                                                                   Esquerda p/ Direita
+    [] Seleção em array
+    ∙  Seleção de membros
+
+14  ++ Incremento pós-fixado                                                                        Direita p/ Esquerda
+    -- Decremento pós-fixado
+
+13  ++ Incremento pré-fixado                                                                        Direita p/ Esquerda
+    -- Decremento pré-fixado
+    + Mais
+    - Menos
+    ! Negação Lógica
+    ~ Complemento binário
+    (type) Conversão explícita (cast)
+
+
+12  * Multiplicação                                                                                 Esquerda p/ Direita
+    / Divisão
+    % Módulo
+
+11  + Adição                                                                                        Esquerda p/ Direita
+    - Subtração
+
+10  << Deslocamento aritmético p/ esquerda                                                          Esquerda p/ Direita
+    >> Deslocamento aritmético p/ direita
+    >>> Deslocamento lógico p/ direita
+
+
+9   <  Menor que                                                                                    Esquerda p/ Direita
+    <= Menor que ou igual
+    >  Maior que
+    >= Maior que ou igual
+    instanceof Comparação de tipos (objects only)
+
+8   == Igualdade                                                                                    Esquerda p/ Direita
+    != Desigualdade
+
+
+7   & E lógico (bit a bit)                                                                          Esquerda p/ Direita
+
+6   ^ Ou exclusivo (bit a bit)                                                                      Esquerda p/ Direita
+

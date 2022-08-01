@@ -1,0 +1,42 @@
+        *
+        *  Tipos Primitivos
+        *
+        *_________________________________________________
+        *
+        *  Byte = 1  | Byte -> -128 até 127
+        *  Short = 2 | Short -> -32,768 até 32,767
+        *  Int = 4   | Int -> -2,147,483,648 até 2,147,483,647
+        *  Long = 8  | Long -> -9,223,372,036,8447,75,808 até 9,223,372,036,8447,75,807
+        *
+        *  Float = 4 Byte
+        *  Double = 8 Byte
+        *
+        * ________________________________________________
+        *
+        *  1 Byte = 8bits
+        *
+        * ________________________________________________
+        *
+        *  Char = Representa 1 letra
+        *
+        *  Boolean = Representar False OR True
+        *
+        * ________________________________________________
+        *
+        *
+        *  Int = Numeros Interios = 12
+        *  Double  = Numeros Flutuantes com pontos = 1.2
+        *
+        *
+        * ________________________________________________
+        *
+        *  Byte para Long Fica mais Facil de armazenar
+        *  Caso você queira passa de Long para Byte você vai passar
+        *  a perder informações
+        *
+        * ________________________________________________
+        *
+        * https://d2vlcm61l7u1fs.cloudfront.net/media%2Fa0e%2Fa0e296eb-f135-4d99-9bea-34e0bdaa5639%2FphpyGj7vz.png
+        *
+        *
+
