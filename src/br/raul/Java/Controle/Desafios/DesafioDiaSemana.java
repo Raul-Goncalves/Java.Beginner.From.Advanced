@@ -1,6 +1,5 @@
 package br.raul.Java.Controle.Desafios;
 
-import java.awt.*;
 import java.util.Scanner;
 
 public class DesafioDiaSemana {
@@ -9,7 +8,7 @@ public class DesafioDiaSemana {
 
         Scanner entrada = new Scanner(System.in);
 
-        System.out.println("Digite um dia da semana");
+        System.out.println("Digite um dia da semana: ");
         String dia = entrada.next();
 
         if(dia.equalsIgnoreCase("Domingo")) {
@@ -30,6 +29,5 @@ public class DesafioDiaSemana {
             System.out.println("Dia Inválido");
 
         entrada.close();
-
     }
 }

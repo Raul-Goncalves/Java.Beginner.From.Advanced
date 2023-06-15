@@ -7,33 +7,32 @@ public class SwitchComBreak {
     public static void main(String[] args) {
 
         Scanner entrada = new Scanner(System.in);
-        System.out.println("Informe a sua nota: ");
+        System.out.println("Informe a nota do aluno: ");
         int nota = entrada.nextInt();
-        String conceito = "";
+        String notafinal = " ";
 
-        switch (nota) {
+        switch (nota){
             case 10:
-                conceito = "A";
+                notafinal = "A";
                 break;
             case 9:
-                conceito = "A";
+                notafinal = "B";
                 break;
             case 8:
-                conceito = "A";
+                notafinal = "C";
                 break;
             case 7:
-                conceito = "B";
+                notafinal = "D";
                 break;
             case 6:
-                conceito = "B";
+                notafinal = "E";
                 break;
             default:
-                conceito = "Não foi informado sua nota";
+                notafinal = ("A nota do aluno não foi intruzida! tente novamente");
         }
 
-        System.out.println("Conceito é " + conceito);
+        System.out.println("NOTA: " + notafinal);
         entrada.close();
-
 
     }
 }

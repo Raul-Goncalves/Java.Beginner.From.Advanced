@@ -1,15 +1,11 @@
 package br.raul.Java.Controle;
 
-public class WhileDeterminado {
+public class ForDecresente {
 
     public static void main(String[] args) {
 
-        int contador = 0;
-
-        while(contador <= 10){
+        for(int contador=10; contador>=0; contador-=2){
             System.out.printf("i = %d\n", contador);
-            contador++;
         }
-
     }
 }

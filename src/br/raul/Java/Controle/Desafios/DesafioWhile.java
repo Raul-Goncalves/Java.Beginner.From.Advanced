@@ -8,27 +8,22 @@ public class DesafioWhile {
 
         Scanner entrada = new Scanner(System.in);
 
-        int quantiaNotas = 0;
-        double nota = 0;
-        double total= 0;
+        int Qnota = 0;
+        double nota = 0,total = 0;
 
-        while(nota != -1) {
-            System.out.println("Informe a nota: ");
+        while (nota != -1){
+            System.out.println("Informe um nota:");
             nota = entrada.nextDouble();
 
-            if(nota <= 10 && nota >= 0) {
+            if(nota <= 10 && nota >= 0){
                 total += nota;
-                quantiaNotas++;
-            }else if(nota != -1){
-                System.out.println("Nota Inválida!");
+                Qnota++;
+            } else if (nota != -1) {
+                System.out.println("Nota Inválida tente novamente");
             }
         }
-
-        double media = total/quantiaNotas;
-        System.out.println("Media = "+ media);
-
-
+        double media = total/Qnota;
+        System.out.println("Média: "+ media);
         entrada.close();
     }
-
 }

@@ -1,26 +1,30 @@
 package br.raul.Java.Controle;
 
+import java.util.Locale;
+
 public class SwitchSemBreak {
 
     public static void main(String[] args) {
 
         String faixa = "cinza";
 
-        switch (faixa.toLowerCase()){
+        switch (faixa.toLowerCase(Locale.ROOT)){
             case "preta":
-                System.out.println("Sei 1");
-            case "vermlha":
-                System.out.println("Sei 2");
+                System.out.println("PRETA");
+            case "vermelho":
+                System.out.println("VERMLHO");
             case "marom":
-                System.out.println("Sei 3");
-            case "branca":
-                System.out.println("Sei 4");
+                System.out.println("MAROM");
+            case "branco":
+                System.out.println("BRANCO");
             case "cinza":
-                System.out.println("Sei 5");
-            case "roxa":
-                System.out.println("Sei 6");
+                System.out.println("CINZA");
+            case "roxo":
+                System.out.println("ROXO");
             default:
-                System.out.println("Sei nada");
+                System.out.println("Qual é a cor escolhida?");
+
         }
+
     }
 }
