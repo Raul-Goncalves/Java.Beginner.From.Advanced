@@ -1,6 +1,27 @@
         *
         *  Tipos Primitivos
         *
+        *
+        *
+        *
+        *
+        *
+        *
+        *_________________________________________________
+        *
+        * Quando você não declara nada para estes tipos primitivo o normal de acontecer e dario por si só esses
+        * valores que estão abaixo
+        *
+        * byte, short, int , long  = 0
+        * float, double = 0.0
+        * boolean = false
+        * char = '\u000'
+        *
+        * objeto = null
+        *   String s = null;
+        *
+        *
+        *
         *_________________________________________________
         *
         *  Byte = 1  | Byte -> -128 até 127
