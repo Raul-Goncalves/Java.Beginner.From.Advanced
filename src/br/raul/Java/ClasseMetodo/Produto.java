@@ -3,29 +3,24 @@ package br.raul.Java.ClasseMetodo;
 public class Produto {
 
     String nome;
+
     double preco;
-    double desconto;
 
-    Produto(String NomeIncial){
-        nome = NomeIncial;
+     static double desconto = 0.25;
+
+    Produto(String NomeInicial){ nome = NomeInicial; }
+
+    Produto(String NomeInicial, double PrecoIncial){
+        nome = NomeInicial;
+        preco = PrecoIncial;
     }
-
-    Produto(String NomeIncial, double PrecoInicial, double DescontoIncial){
-        nome = NomeIncial;
-        preco = PrecoInicial;
-        desconto = DescontoIncial;
-    }
-
-    Produto(){
-
-    }
-
 
     double PDesconto(){
-        return preco * (1-desconto);
+        return preco*(1-desconto);
     }
-
-
-
-
+    double PComDesconto(double DDoGerente){
+        return preco * (1 - desconto + DDoGerente);
+    }
 }
+
+
